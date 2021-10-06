@@ -4,7 +4,7 @@ import ImageHero from "assets/images/img-hero.jpg";
 import ImageHeroFrame from "assets/images/img-hero-frame.jpg";
 import IconCities from "assets/images/icons/ic_cities.svg";
 import IconTraveler from "assets/images/icons/ic_traveler.svg";
-import IconTreasur from "assets/images/icons/ic_treasure.svg";
+import IconTreasure from "assets/images/icons/ic_treasure.svg";
 
 import Button from "elements/Button";
 
@@ -61,7 +61,7 @@ export default function Hero(props) {
 							<img
 								width="36"
 								height="36 "
-								src={IconTraveler}
+								src={IconTreasure}
 								alt={`${props.data.treasures} treasures`}
 							/>
 							<h6 className="mt-3">
@@ -76,7 +76,7 @@ export default function Hero(props) {
 							<img
 								width="36"
 								height="36 "
-								src={IconTraveler}
+								src={IconCities}
 								alt={`${props.data.cities} cities`}
 							/>
 							<h6 className="mt-3">
